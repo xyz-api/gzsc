@@ -208,10 +208,16 @@
     categories.forEach(cat => { defaultCollapsed[cat.id] = true; });
     const collapsedState = savedState ? JSON.parse(savedState) : defaultCollapsed;
 
-    // 移动端菜单按钮
+    // 移动端菜单按钮 - 切换开关
     mobileMenuBtn.addEventListener('click', () => {
-      sidebar.classList.add('open');
-      sidebarOverlay.classList.add('open');
+      const isOpen = sidebar.classList.contains('open');
+      if (isOpen) {
+        sidebar.classList.remove('open');
+        sidebarOverlay.classList.remove('open');
+      } else {
+        sidebar.classList.add('open');
+        sidebarOverlay.classList.add('open');
+      }
     });
 
     sidebarOverlay.addEventListener('click', () => {
