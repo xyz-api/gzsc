@@ -30,6 +30,7 @@ const categories = [
       { name: '手册/请教/技术管理手册/副驾驶部分', title: '副驾驶部分', type: 'md' },
       { name: '手册/请教/技术管理手册/机长部分', title: '机长部分', type: 'md' },
       { name: '手册/请教/技术管理手册/教员部分', title: '教员部分', type: 'md' },
+      { name: '手册/请教/技术管理手册/重新获得资格训练', title: '重新获得资格训练', type: 'md' },
       { name: '手册/请教/技术管理手册/其他', title: '其他', type: 'md' },
     ]
   },
@@ -38,6 +39,7 @@ const categories = [
     items: [
       { name: '手册/其他/如何统计当前有效EAMA资质人员', title: '如何统计当前有效EAMA资质人员', type: 'md' },
       { name: '手册/其他/如何统计技术等级变更信息', title: '如何统计技术等级变更信息', type: 'md' },
+      { name: '手册/其他/飞行门户资质发布流程', title: '飞行门户资质发布流程', type: 'md' },
       { name: '副驾驶积分表20250116.xlsx', title: '副驾驶流转积分表', type: 'excel' },
     ]
   },
