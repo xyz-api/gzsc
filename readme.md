@@ -1,1 +1,1 @@
-https://xyz-api.github.io/gzsc/
+https://agentjz.github.io/gzsc/
